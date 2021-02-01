@@ -6,7 +6,10 @@
 	- View All Posts endpoint – https://jsonplaceholder.typicode.com/posts
 
 2. Search API 
-Make the graphql "comments" query to accept a search string that allows a user to filter the comments based on all the available fields. Your solution needs to be scalable. 
+Make the graphql "comments" query to accept a search string that allows a user to filter the comments based on all the available fields. Your solution needs to be scalable.
+
+3. Pagination options
+Make the graphql queries to accept parameters that allows a user to paginate through the data set. Per page value is up to you.
 
 ## Additional
 
