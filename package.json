@@ -1,0 +1,26 @@
+{
+  "name": "interview-graphql-api",
+  "version": "1.0.0",
+  "description": "1. Create a GraphQL endpoint on (/graphql) and multiple queries for comments, posts, post with an option for sort column. Consume data from the API endpoints provided in \r \t- Comments endpoint – https://jsonplaceholder.typicode.com/comments\r \t- View Single Post endpoint – https://jsonplaceholder.typicode.com/posts/{post_id}\r \t- View All Posts endpoint – https://jsonplaceholder.typicode.com/posts",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mindworksint/interview-graphql-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mindworksint/interview-graphql-api/issues"
+  },
+  "homepage": "https://github.com/mindworksint/interview-graphql-api#readme",
+  "dependencies": {
+    "apollo-server": "^3.0.1",
+    "graphql": "^15.5.1",
+    "nodemon": "^2.0.12",
+    "uuid": "^8.3.2"
+  }
+}
