@@ -1,12 +1,10 @@
 const { ApolloServer } = require("apollo-server");
 const { posts, comments } = require("./db/db");
 const Query = require("./resolvers/Query");
-const PostResolver = require("./resolvers/Post");
 const PostTypeDef = require("./schema/Post");
 const CommentTypeDef = require("./schema/Comment");
 const queryTypeDef = require("./schema/Query");
 
-console.log(PostResolver);
 console.log(Query);
 
 const server = new ApolloServer({

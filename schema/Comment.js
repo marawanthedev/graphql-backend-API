@@ -1,8 +1,8 @@
 const commentTypeDefs = `
   type Comment {
-    id: ID!
+    Id: ID!
     author: String!
-    authorEmail: String!
+    email: String!
     body: String!
   }
 `;

@@ -1,10 +1,8 @@
 const queryTypeDefs = `
   type Query {
-    posts: [Post!]!
+    posts(limit:Int offset:Int): [Post]!
     post(id: String!): Post
-    getCommentByAuthor(postId:ID! author: String!): Comment
-    getCommentByBody(postId:ID! body: String!): Comment
-    getCommentByEmail(postId:ID! email: String!): Comment
+    getCommentBy(postId:ID!,mode:String!,searchValue:String!):[Comment]
   }
 `;
 
